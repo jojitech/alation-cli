@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
     REQUIREMENTS = f.readlines()
 
 # reading long description from file
-with open('README.rst', 'r', encoding='utf-8') as f:
+with open('..\README.rst', 'r', encoding='utf-8') as f:
     README = f.read()
 
 
